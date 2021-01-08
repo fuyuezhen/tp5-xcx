@@ -1,0 +1,24 @@
+{
+    "name": "fuyuezhen/tp5-xcx",
+    "description": "小程序api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fuyuezhen",
+            "email": "976066889@qq.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "fuyuezhen\\xcx\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "fuyuezhen\\xcx\\test\\" : "test/"
+        }
+    }
+}
